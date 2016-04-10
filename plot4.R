@@ -3,7 +3,7 @@ ls()
 
 ############plot4
 #### Full data set# Getting full datset 
-setwd("C:\\Users\\GWANG1\\Documents\\Wanggu2\\DataScience\\ExploratoryDataAnalysis\\exdata_data_household_power_consumption")
+setwd("C:\\Users\\GWANG1\\Documents\\Wanggu2\\DataScience\\DS4_ExploratoryDataAnalysis\\exdata_data_household_power_consumption")
 datf = read.table("household_power_consumption.txt", header=T, sep=";",na.strings="?",  
                   nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
 datf$Date <- as.Date(datf$Date, format="%d/%m/%Y") 
